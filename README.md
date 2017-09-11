@@ -1,5 +1,7 @@
 # Introducing Phoenix - ElixirConf US 2017 Training Application
 
+Checkout out [NOTES.md](https://github.com/steven-cole-elliott/elixirconf-phoenix-workshop/blob/master/NOTES.md) for notes taken during this workshop.
+
 ## Course Description
 
 Phoenix is an Elixir web framework for building scalable web services for the
