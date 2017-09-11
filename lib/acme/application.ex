@@ -14,6 +14,7 @@ defmodule Acme.Application do
       supervisor(AcmeWeb.Endpoint, []),
       # Start your own worker by calling: Acme.Worker.start_link(arg1, arg2, arg3)
       # worker(Acme.Worker, [arg1, arg2, arg3]),
+      supervisor(AcmeWeb.Presence, []),
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

@@ -1,0 +1,9 @@
+<div class="page-header">
+  <h2>
+    <%= @issue.subject %>
+    <small>#<%= @issue.id %></small>
+  </h2>
+</div>
+<div id="issue" data-issue-id="<%= @issue.id %>">
+
+</div>
